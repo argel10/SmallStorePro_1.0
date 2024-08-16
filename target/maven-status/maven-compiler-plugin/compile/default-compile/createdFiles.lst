@@ -1,0 +1,5 @@
+com\mycompany\smallstorepro\servlets\proveedorservlet.class
+com\mycompany\smallstorepro\JakartaRestConfiguration.class
+com\mycompany\smallstorepro\servlets\clienteservlet.class
+com\mycompany\smallstorepro\resources\JakartaEE10Resource.class
+com\mycompany\smallstorepro\servlets\productoservlet.class

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Software SmallStorePro</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+            >
+    </head>
+    
+    <body>
+        
+        <h1>SmallStorePro</h1>
+        
+        <h2>Formulario para clientes</h2>
+        <form action="Cliente" method="post">
+            <label for="nombreCliente">Nombre:</label>
+            <input type="text" id="nombreCliente" name="nombreCliente" required><br><br>
+            
+            <label for="direccionCliente">Dirección:</label>
+            <input type="text" id="direccionCliente" name="direccionCliente" required><br><br>
+            
+            <label for="telefonoCliente">Teléfono:</label>
+            <input type="text" id="telefonoCliente" name="telefonoCliente" required><br><br>
+            
+            <input type="submit" value="Guardar cliente"/>
+        </form>
+        
+        <h2>Formulario para un producto</h2>
+        <form action="Producto" method="post">
+            <label for="nombreProducto">Nombre del producto:</label>
+            <input type="text" id="nombreProducto" name="nombreProducto" required><br><br>
+            
+            <label for="precioProducto">Precio del producto:</label>
+            <input type="text" id="precioProducto" name="precioProducto" required><br><br>
+            
+            <label for="cantidadProducto">Cantidad:</label>
+            <input type="text" id="cantidadProducto" name="cantidadProducto" required><br><br>
+            
+            <label for="proveedorProducto">Proveedor:</label>
+            <input type="text" id="proveedorProducto" name="proveedorProducto" required><br><br>
+            
+            <input type="submit" value="Guardar producto"/>
+        </form>
+        
+        <h2>Formulario para proveedores</h2>
+        <form action="Proveedor" method="post">
+            <label for="nombreProveedor">Nombre:</label>
+            <input type="text" id="nombreProveedor" name="nombreProveedor" required><br><br>
+            
+            <label for="direccionProveedor">Dirección:</label>
+            <input type="text" id="direccionProveedor" name="direccionProveedor" required><br><br>
+            
+            <label for="telefonoProveedor">Teléfono:</label>
+            <input type="text" id="telefonoProveedor" name="telefonoProveedor" required><br><br>
+            
+            <input type="submit" value="Guardar proveedor"/>
+        </form>
+
+    </body>
+</html>
